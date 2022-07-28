@@ -1,0 +1,91 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+nav {
+    background-color: lightblue;
+    opacity: 70%;
+    height:30px;
+    width:1024px;
+font-size: 14px;
+margin-top:0;
+padding-top:10px;
+position: fixed;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding-top:auto;
+    margin: 50px;
+}
+
+a {
+    color: cadetblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+h1{
+    color: lightcoral;
+    font-size: 100px;
+    font-weight: lighter;
+    margin-top:10px;
+    padding:100px;
+}
+
+.blue {
+    position:absolute;
+    margin-left: 1000px;
+    margin-right:50px;
+    margin-top:50px;
+    background-color: lightblue;
+height: 300px;
+width: 300px;
+border-radius: 9999px;
+}
+
+.red {
+    position:absolute;
+    margin-left: 900px;
+    margin-right:350px;
+    margin-top:300px;
+    z-index:-1;
+    background-color: rgb(211, 122, 122);
+    height: 300px;
+width: 300px;
+border-bottom-right-radius: 999px;
+border-top-right-radius: 999px;
+
+
+}
+.yellow {
+    position:absolute;
+    margin-left: 750px;
+    margin-right: 450px;
+    margin-top:550px;
+    background-color:rgb(232, 179, 0) ;
+    height: 300px;
+width: 300px;
+border-top-left-radius: 999px;
+border-bottom-left-radius: 999px ;
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(69, 69, 69);
+}
+
+footer{
+    position: static;
+    margin:0;
+    padding-top:10px;
+    background-color: lightblue;
+    height: 30px;
+    width: 1024px;
+
+}
